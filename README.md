@@ -11,13 +11,21 @@
 </dependency>
 
 配置application.properties
+
 #Zookeeper地址
+
 zk.address=
+
 #连接超时
+
 zk.connection-time-out=
+
 #session过期失效
+
 zk.session-time-out=
+
 #Netty 的端口
+
 rpc.port=1999
 
 需要在启动类添加@ComponentScan配置扫描的全限定名
